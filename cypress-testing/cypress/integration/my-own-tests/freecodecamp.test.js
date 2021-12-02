@@ -26,6 +26,3 @@ describe('Basic Test', () => {
         cy.contains('Go to next challenge').click()
     })
 })
-
-//npx cypress open (run in dev)
-//npx cypress run --headless (run in CI/CD env)
